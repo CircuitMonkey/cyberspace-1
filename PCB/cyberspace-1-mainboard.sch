@@ -5473,7 +5473,9 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <part name="ICSP" library="con-jst" library_urn="urn:adsk.eagle:library:7191852" deviceset="06P" device="-SM-VT-SMT" package3d_urn="urn:adsk.eagle:package:41517274/3" value="Connector, 6P, SM, VT"/>
 <part name="SUPPLY135" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY136" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="FRAME1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="TABL_L" device=""/>
+<part name="FRAME1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="TABL_L" device="">
+<attribute name="DOCUMENT_NUMBER" value="OS-520-782001-01"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6565,6 +6567,7 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <attribute name="LAST_DATE_TIME" x="312.42" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="386.08" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="243.84" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="312.42" y="6.096" size="3.81" layer="94" ratio="15"/>
 </instance>
 </instances>
 <busses>
