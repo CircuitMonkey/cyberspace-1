@@ -2202,6 +2202,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="4.7K"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/4" value="0.1uF"/>
+<part name="SUPPLY28" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
+<part name="SUPPLY29" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2215,7 +2218,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="101.6" y1="99.06" x2="101.6" y2="180.34" width="0.3048" layer="94" style="shortdash"/>
 <text x="170.18" y="170.18" size="3.81" layer="97">Experimental - Do Not Populate</text>
 <text x="200.66" y="76.2" size="1.778" layer="97" rot="R90" align="center">NOT USED</text>
-<text x="243.84" y="99.06" size="1.778" layer="97" rot="R90" align="center">NOT USED</text>
+<text x="244.602" y="101.854" size="1.524" layer="97" rot="R90" align="center">NOT USED</text>
 <text x="247.904" y="67.31" size="1.778" layer="97" rot="R180" align="center">NOT USED</text>
 <text x="36.83" y="33.02" size="1.397" layer="97" distance="80" align="center">X
 X
@@ -2296,7 +2299,7 @@ X</text>
 <attribute name="VALUE" x="190.5" y="151.257" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="241.3" y="83.82" smashed="yes">
-<attribute name="VALUE" x="243.84" y="86.995" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
+<attribute name="VALUE" x="244.348" y="85.471" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="134.62" y="170.18" smashed="yes">
 <attribute name="VALUE" x="134.62" y="174.117" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
@@ -2420,6 +2423,16 @@ X</text>
 <attribute name="NAME" x="53.848" y="89.3572" size="1.016" layer="95" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="49.53" y="88.9" size="0.9652" layer="96" font="vector" align="center"/>
 </instance>
+<instance part="C4" gate="G$1" x="40.64" y="170.18" smashed="yes">
+<attribute name="NAME" x="43.18" y="170.18" size="1.6764" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="43.18" y="169.164" size="0.6096" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY28" gate="G$1" x="40.64" y="172.72" smashed="yes">
+<attribute name="VALUE" x="40.64" y="176.657" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY29" gate="GND" x="40.64" y="167.64" smashed="yes">
+<attribute name="VALUE" x="40.64" y="164.973" size="0.6096" layer="96" font="vector" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2511,6 +2524,10 @@ X</text>
 <wire x1="243.84" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="SUPPLY29" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -2577,6 +2594,10 @@ X</text>
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 <wire x1="243.84" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2869,25 +2890,40 @@ X</text>
 <label x="241.3" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RES1" class="0">
+<net name="!INT2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="I1"/>
 <junction x="38.1" y="15.24"/>
 <label x="38.1" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="PCB" gate="G$1" pin="X0"/>
+<junction x="241.3" y="88.9"/>
+<label x="241.3" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="RES2" class="0">
+<net name="!INT3" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="I2"/>
 <junction x="38.1" y="17.78"/>
 <label x="38.1" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="PCB" gate="G$1" pin="X1"/>
+<junction x="241.3" y="91.44"/>
+<label x="241.3" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="RES3" class="0">
+<net name="!INT4" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="I3"/>
 <junction x="38.1" y="20.32"/>
 <label x="38.1" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PCB" gate="G$1" pin="X2"/>
+<junction x="241.3" y="93.98"/>
+<label x="241.3" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!INTC" class="0">
