@@ -674,8 +674,8 @@
 <vertex x="11" y="68"/>
 <vertex x="11" y="66"/>
 <vertex x="10" y="65"/>
-<vertex x="7" y="65"/>
-<vertex x="6" y="66"/>
+<vertex x="7.4" y="65"/>
+<vertex x="6" y="66.4"/>
 <vertex x="6" y="68.5"/>
 <vertex x="8" y="66.5"/>
 <vertex x="9" y="66.5"/>
@@ -686,7 +686,7 @@
 <polygon width="0.01" layer="21">
 <vertex x="6" y="64"/>
 <vertex x="7" y="64"/>
-<vertex x="7" y="61"/>
+<vertex x="7" y="62"/>
 <vertex x="6" y="61"/>
 </polygon>
 <polygon width="0.01" layer="21">
@@ -698,7 +698,7 @@
 <polygon width="0.01" layer="21">
 <vertex x="10" y="64"/>
 <vertex x="9" y="64"/>
-<vertex x="9" y="61"/>
+<vertex x="9" y="62"/>
 <vertex x="10" y="61"/>
 </polygon>
 <polygon width="0.01" layer="21">
@@ -729,8 +729,6 @@
 <vertex x="7" y="54.5"/>
 <vertex x="7.5" y="55"/>
 <vertex x="8.5" y="55"/>
-<vertex x="9" y="54.5"/>
-<vertex x="9" y="53.5"/>
 <vertex x="10" y="53.5"/>
 </polygon>
 <polygon width="0.01" layer="21">
@@ -741,15 +739,8 @@
 <vertex x="6" y="49"/>
 <vertex x="6.5" y="49"/>
 <vertex x="6" y="49.5"/>
-<vertex x="6" y="50.5"/>
-<vertex x="6.5" y="51"/>
-<vertex x="8" y="51"/>
-<vertex x="8.5" y="50.5"/>
-<vertex x="8.5" y="50"/>
-<vertex x="8" y="49.5"/>
-<vertex x="7.5" y="49.5"/>
-<vertex x="7.5" y="50"/>
-<vertex x="7" y="50"/>
+<vertex x="6" y="51"/>
+<vertex x="7" y="51"/>
 <vertex x="7" y="49"/>
 <vertex x="9" y="49"/>
 <vertex x="9.5" y="49.5"/>
@@ -779,6 +770,15 @@
 <vertex x="7.5" y="69.1"/>
 <vertex x="6" y="70.6"/>
 </polygon>
+<polygon width="0.01" layer="21">
+<vertex x="7.5" y="51"/>
+<vertex x="8.5" y="50"/>
+<vertex x="8.5" y="49.4"/>
+<vertex x="7.5" y="49.4"/>
+</polygon>
+<text x="2.7" y="31.5" size="2" layer="21" rot="SR270" align="bottom-center">Rev. A</text>
+<text x="177.8" y="15.9" size="2" layer="22" rot="SMR270" align="bottom-center">Rev. A</text>
+<text x="179.4" y="16" size="1" layer="22" rot="SMR270" align="bottom-center">2023/12</text>
 </plain>
 <libraries>
 <library name="con-edge" urn="urn:adsk.eagle:library:18196469">
@@ -8561,23 +8561,23 @@ Please make sure your boards conform to these design rules.
 <wire x1="162.77" y1="53.35" x2="163.25" y2="53.35" width="0.6096" layer="1"/>
 <wire x1="162.77" y1="53.35" x2="161.77" y2="54.35" width="0.6096" layer="1"/>
 <polygon width="0.1524" layer="16">
-<vertex x="174.5" y="80"/>
-<vertex x="176" y="80"/>
-<vertex x="176.5" y="79.5"/>
+<vertex x="174.3" y="78.5"/>
+<vertex x="176.3" y="78.5"/>
+<vertex x="176.5" y="78.3"/>
 <vertex x="176.5" y="53"/>
 <vertex x="176" y="52.5"/>
 <vertex x="174.5" y="52.5"/>
 <vertex x="174" y="53"/>
-<vertex x="174" y="79.5"/>
+<vertex x="174" y="78.2"/>
 </polygon>
-<wire x1="175.8" y1="79" x2="175.84" y2="79.04" width="0.6096" layer="1"/>
-<via x="175.84" y="79.04" extent="1-16" drill="0.3048"/>
-<via x="174.56" y="79.04" extent="1-16" drill="0.3048"/>
-<via x="175.2" y="79.04" extent="1-16" drill="0.3048"/>
-<wire x1="175.2" y1="79.04" x2="174.56" y2="79.04" width="0.6096" layer="1"/>
-<wire x1="175.84" y1="79.04" x2="175.2" y2="79.04" width="0.6096" layer="1"/>
-<wire x1="174.56" y1="79.04" x2="174.52" y2="79" width="0.6096" layer="1"/>
-<wire x1="174.52" y1="79" x2="170.2" y2="79" width="0.6096" layer="1"/>
+<wire x1="175.9" y1="78.1" x2="175.94" y2="78.14" width="0.6096" layer="1"/>
+<via x="175.94" y="78.14" extent="1-16" drill="0.3048"/>
+<via x="174.66" y="78.14" extent="1-16" drill="0.3048"/>
+<via x="175.3" y="78.14" extent="1-16" drill="0.3048"/>
+<wire x1="175.3" y1="78.14" x2="174.66" y2="78.14" width="0.6096" layer="1"/>
+<wire x1="175.94" y1="78.14" x2="175.3" y2="78.14" width="0.6096" layer="1"/>
+<wire x1="174.66" y1="78.14" x2="173.8" y2="79" width="0.6096" layer="1"/>
+<wire x1="173.8" y1="79" x2="170.2" y2="79" width="0.6096" layer="1"/>
 <wire x1="163.25" y1="53.35" x2="173.53" y2="53.35" width="0.8128" layer="1"/>
 <wire x1="174.56" y1="53.38" x2="173.56" y2="53.38" width="0.8128" layer="1"/>
 <wire x1="173.53" y1="53.35" x2="173.56" y2="53.38" width="0.8128" layer="1"/>
@@ -10434,6 +10434,32 @@ Please make sure your boards conform to these design rules.
 <approved hash="6,16,92b590a6988f090a"/>
 <approved hash="6,16,c72bb13e3139472c"/>
 <approved hash="6,16,355e7b5dfe2c7e2e"/>
+<approved hash="6,16,6af75d70980bb887"/>
+<approved hash="6,16,06e32164f437c4a3"/>
+<approved hash="6,16,1099376efa21dea9"/>
+<approved hash="6,16,2e2afe78cf6100c3"/>
+<approved hash="6,16,580bb72cf5378b3a"/>
+<approved hash="6,16,8ee5c6bef3f0943b"/>
+<approved hash="6,16,b6e9deb2dbec8c27"/>
+<approved hash="6,16,c6910eca0be4dc2f"/>
+<approved hash="6,16,16997ec27b9cec28"/>
+<approved hash="6,16,3e9d56c643990454"/>
+<approved hash="6,16,4f2ddaf9f6f57734"/>
+<approved hash="6,16,73e9f62de2e95318"/>
+<approved hash="6,16,1705e231cedd4f1c"/>
+<approved hash="6,16,0b110fd42aa13b70"/>
+<approved hash="6,16,01e6529767fd8939"/>
+<approved hash="6,16,1e855decac57a228"/>
+<approved hash="6,16,01071dca24d32562"/>
+<approved hash="6,16,79dfc413ecfb6d2a"/>
+<approved hash="6,16,65f3f83fd0d74116"/>
+<approved hash="6,16,8d99c7dd4990d84c"/>
+<approved hash="6,16,128f1518d053e0df"/>
+<approved hash="6,16,24bd030ace45f2fd"/>
+<approved hash="6,16,66e1eebaebf47c3f"/>
+<approved hash="6,16,ee9566ce13e0f42b"/>
+<approved hash="6,16,b7bfe43b1b42ee9a"/>
+<approved hash="6,16,78c14f668229a691"/>
 </errors>
 </board>
 </drawing>
