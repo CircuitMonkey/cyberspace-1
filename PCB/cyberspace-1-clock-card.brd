@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1892,7 +1892,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="67.5" y="24" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="67.246" y="25.4" size="0.2" layer="27" rot="R270" align="center"/>
 </element>
-<element name="SLOW_ADJ" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="CERMET_MULTI_3006P_THD" package3d_urn="urn:adsk.eagle:package:42461647/1" value="" x="79" y="7.5" smashed="yes">
+<element name="SLOW_ADJ" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="CERMET_MULTI_3006P_THD" package3d_urn="urn:adsk.eagle:package:42461647/1" value="1M" x="79" y="7.5" smashed="yes">
 <attribute name="COST01" value="2.00" x="79" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="COST10" value="1.70" x="79" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="COST100" value="1.40" x="79" y="7.5" size="1.778" layer="27" display="off"/>

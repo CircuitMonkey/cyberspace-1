@@ -3601,7 +3601,7 @@ A</text>
 <part name="C10" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY43" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY44" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="SLOW_ADJ" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CERMET_MULTI_TURN" device="-3006P" package3d_urn="urn:adsk.eagle:package:42461647/1"/>
+<part name="SLOW_ADJ" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CERMET_MULTI_TURN" device="-3006P" package3d_urn="urn:adsk.eagle:package:42461647/1" value="1M"/>
 <part name="CLK" library="led" library_urn="urn:adsk.eagle:library:5499911" deviceset="SMT" device="0603" package3d_urn="urn:adsk.eagle:package:5499947/3"/>
 <part name="R13" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="2K"/>
 <part name="SUPPLY21" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
