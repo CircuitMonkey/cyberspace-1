@@ -17,6 +17,11 @@ Created GitHub repository.
 ### 2023 Mid November
 Roughed out basic design for all main boards.  Backplane, 6502, Memory, Clock, Video card.  Placement seems to be satisfactory.
 
+### 2024 January
+Bring up of Backplane and Clock board largely succesful!
+ * Backplane. No issues found so far.
+ * Clock board crystal circuit has error (used Schmidt buffer (HCT14) instead of regular buffer (HCT04). Will fix in later revision.
+
 ## To Do
 Sound Card, Keyboard and game controller input card.
 
