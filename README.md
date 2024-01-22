@@ -7,6 +7,10 @@ I wanted to make a 8-bit card-edge style computer.  8-bit computers were the fir
 ## About the name...
 I want to create a system that has a Cyberpunk aesthetic and in the book Neuromancer, there is a Cyberspace "Deck" called the Cyberspace7 by Ono-Sendai and that implies the existence of Cyberspace 1 through 6.  So for my own amusement I've decided to call this experiment the Cyberspace 1 along with creating logos for Cyberspace product as well as a logo for Ono-Sendai Company.
 
+<img src="./Documents/photos/cyberspace-1-pcbs - 1.jpeg" height="200" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Documents/photos/cyberspace-1-pcbs - 2.jpeg" height="200" />
+
+<img src="./Documents/photos/cyberspace-1-pcbs - 3.jpeg" height="200" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Documents/photos/cyberspace-1-pcbs - 4.jpeg" height="200" />
+
 ## License
 I've decided to make this project with the MIT license.  Do whatever you want with it.
 
@@ -16,6 +20,11 @@ Created GitHub repository.
 
 ### 2023 Mid November
 Roughed out basic design for all main boards.  Backplane, 6502, Memory, Clock, Video card.  Placement seems to be satisfactory.
+
+### 2024 January
+Bring up of Backplane and Clock board largely succesful!
+ * Backplane. No issues found so far.
+ * Clock board crystal circuit has error (used Schmidt buffer (HCT14) instead of regular buffer (HCT04). Will fix in later revision.
 
 ## To Do
 Sound Card, Keyboard and game controller input card.
