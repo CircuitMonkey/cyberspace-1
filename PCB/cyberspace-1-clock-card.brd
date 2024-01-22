@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1013,6 +1013,36 @@
 <rectangle x1="-0.8849" y1="2.2" x2="-0.3851" y2="3.1" layer="51"/>
 <rectangle x1="-2.1549" y1="2.2" x2="-1.6551" y2="3.1" layer="51"/>
 </package>
+<package name="TSOP-5" urn="urn:adsk.eagle:footprint:8032544/2" locally_modified="yes" library_version="33" library_locally_modified="yes">
+<description>SC-74A (SOT753)  3mm x 1.6mm</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1.4" y1="0.7" x2="1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.446" x2="1.4" y2="-0.573" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.573" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.7" x2="-1.4" y2="-0.573" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.573" x2="-1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.446" x2="-1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.446" x2="-1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.573" x2="-1.4" y2="-0.573" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="2" x="0" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="4" x="0.95" y="1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R270"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R270"/>
+<rectangle x1="-0.2" y1="-1.5" x2="0.2" y2="-0.9" layer="51"/>
+<rectangle x1="0.75" y1="-1.5" x2="1.15" y2="-0.9" layer="51"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.75" y2="-0.9" layer="51"/>
+<rectangle x1="0.75" y1="0.9" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.9" x2="-0.75" y2="1.5" layer="51" rot="R180"/>
+<text x="0" y="0" size="0.254" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="-2" y="0" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<circle x="-1.651" y="-1.5" radius="0.127" width="0.254" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP14" urn="urn:adsk.eagle:package:8032598/5" type="model" library_version="32" library_locally_modified="yes">
@@ -1025,6 +1055,12 @@
 <description>SMALL OUTLINE PACKAGE, 8 pin</description>
 <packageinstances>
 <packageinstance name="SOP08"/>
+</packageinstances>
+</package3d>
+<package3d name="TSOP-5" urn="urn:adsk.eagle:package:8032592/3" type="model" library_version="33" library_locally_modified="yes">
+<description>TSOP-5</description>
+<packageinstances>
+<packageinstance name="TSOP-5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1134,7 +1170,7 @@
 <vertex x="0.51" y="0.38"/>
 </polygon>
 </package>
-<package name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:footprint:42461646/1" library_version="49">
+<package name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:footprint:42461646/1" locally_modified="yes" library_version="49" library_locally_modified="yes">
 <description>Cermet, Multiturn Trim Pot, Bournes 3006P type.,  THD</description>
 <wire x1="-10.67" y1="2.42" x2="8.38" y2="2.42" width="0.127" layer="51"/>
 <wire x1="8.38" y1="2.42" x2="8.38" y2="1.19" width="0.127" layer="51"/>
@@ -1153,13 +1189,13 @@
 <wire x1="8.4" y1="2.5" x2="8.4" y2="-2.4" width="0.2" layer="21"/>
 <wire x1="8.4" y1="-2.4" x2="-10.7" y2="-2.4" width="0.2" layer="21"/>
 <wire x1="-10.7" y1="-2.4" x2="-10.7" y2="2.5" width="0.2" layer="21"/>
-<pad name="1" x="-7.62" y="-1.27" drill="0.8"/>
-<pad name="2CT" x="0" y="1.27" drill="0.8"/>
-<pad name="3" x="5.08" y="-1.27" drill="0.8"/>
+<pad name="1" x="-7.62" y="1.27" drill="0.8"/>
+<pad name="2CT" x="0" y="-1.27" drill="0.8"/>
+<pad name="3" x="5.08" y="1.27" drill="0.8"/>
 <rectangle x1="-10.67" y1="-2.42" x2="-9.93" y2="2.42" layer="51"/>
 <rectangle x1="7.62" y1="-2.42" x2="8.38" y2="2.42" layer="51"/>
 <text x="6" y="3" size="0.9" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="-1" y="-2" size="0.5" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.5" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -1175,7 +1211,7 @@
 <packageinstance name="0603-RES"/>
 </packageinstances>
 </package3d>
-<package3d name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:package:42461647/1" type="box" library_version="49">
+<package3d name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:package:42461647/1" type="box" library_version="49" library_locally_modified="yes">
 <description>Cermet, Multiturn Trim Pot, Bournes 3006P type.,  THD</description>
 <packageinstances>
 <packageinstance name="CERMET_MULTI_3006P_THD"/>
@@ -1918,6 +1954,22 @@ Please make sure your boards conform to these design rules.
 </element>
 <element name="LOGO1" library="gfx-glyphs" library_urn="urn:adsk.eagle:library:17868973" package="SOZU-20MM" value="" x="32.6" y="40" smashed="yes"/>
 <element name="LOGO2" library="gfx-glyphs" library_urn="urn:adsk.eagle:library:17868973" package="CHRONOS2-20MM" value="" x="73.1" y="38.4" smashed="yes"/>
+<element name="U7" library="logic" library_urn="urn:adsk.eagle:library:8032508" package="TSOP-5" package3d_urn="urn:adsk.eagle:package:8032592/3" value="" x="3" y="-4" smashed="yes">
+<attribute name="COST01" value="0.35" x="3" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="COST10" value="0.24" x="3" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="COST100" value="0.12" x="3" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Nexperia" x="3" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="74HCT1G04GV" x="3" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1" y="-4" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="3" y="-4" size="0.254" layer="27" font="vector" align="center"/>
+</element>
+<element name="C11" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF" x="2" y="-7" smashed="yes">
+<attribute name="COST01" value="0.12" x="2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="COST10" value="0.09" x="2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="COST100" value="0.05" x="2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="3.5" y="-7" size="0.7" layer="25" font="vector" ratio="15" align="center-left"/>
+<attribute name="VALUE" x="2" y="-7.254" size="0.2" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2070,6 +2122,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="86.4" y1="40" x2="86.4" y2="36.8" width="0.1524" layer="1"/>
 <wire x1="52.5" y1="26.151840625" x2="51.351840625" y2="26.151840625" width="0.4" layer="1"/>
 <wire x1="51.351840625" y1="26.151840625" x2="51.2" y2="26" width="0.4" layer="1"/>
+<contactref element="U7" pad="5"/>
+<contactref element="C11" pad="1"/>
+<wire x1="2.05" y1="-2.7" x2="1.248159375" y2="-7" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="15.751840625" x2="2.05" y2="-2.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="PCB" pad="B20"/>
@@ -2242,6 +2298,10 @@ Please make sure your boards conform to these design rules.
 <via x="64.64" y="18.08" extent="1-16" drill="0.3048"/>
 <via x="64.64" y="16.32" extent="1-16" drill="0.3048"/>
 <via x="64.64" y="14.08" extent="1-16" drill="0.3048"/>
+<contactref element="U7" pad="3"/>
+<contactref element="C11" pad="2"/>
+<wire x1="2.751840625" y1="-7" x2="3.95" y2="-5.3" width="0" layer="19" extent="1-1"/>
+<wire x1="1.28" y1="3.2" x2="3.95" y2="-5.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XTAL_IN">
 <contactref element="X1" pad="1"/>
@@ -2263,6 +2323,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="57.28" y1="32.96" x2="55.84" y2="32.96" width="0.1524" layer="1"/>
 <wire x1="55.84" y1="32.96" x2="53.6" y2="35.2" width="0.1524" layer="1"/>
 <wire x1="52.9" y1="37.751840625" x2="53.6" y2="37.751840625" width="0.1524" layer="1"/>
+<contactref element="U7" pad="2"/>
+<wire x1="3" y1="-5.3" x2="59" y2="28.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XTAL_OUT">
 <contactref element="R11" pad="2"/>
@@ -2278,6 +2340,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="54.3" y1="34.98" x2="56" y2="33.28" width="0.1524" layer="1"/>
 <wire x1="56" y1="33.28" x2="57.44" y2="33.28" width="0.1524" layer="1"/>
 <wire x1="60.27" y1="28.3" x2="61.54" y2="28.3" width="0.1524" layer="1"/>
+<contactref element="U7" pad="4"/>
+<wire x1="3.95" y1="-2.7" x2="54.3" y2="36.248159375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C6" pad="1"/>
@@ -2382,10 +2446,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="29.635" y1="10.755" x2="29.6" y2="10.72" width="0.1524" layer="1"/>
 <via x="29.6" y="10.72" extent="1-16" drill="0.3048"/>
 <wire x1="36.16" y1="10.72" x2="38.24" y2="12.8" width="0.1524" layer="16"/>
-<wire x1="38.24" y1="12.8" x2="77.12" y2="12.8" width="0.1524" layer="16"/>
+<wire x1="38.24" y1="12.8" x2="74.72" y2="12.8" width="0.1524" layer="16"/>
 <wire x1="29.6" y1="10.72" x2="36.16" y2="10.72" width="0.1524" layer="16"/>
-<wire x1="79" y1="8.77" x2="79" y2="10.92" width="0.1524" layer="16"/>
-<wire x1="79" y1="10.92" x2="77.12" y2="12.8" width="0.1524" layer="16"/>
+<wire x1="79" y1="6.23" x2="79" y2="8.52" width="0.1524" layer="16"/>
+<wire x1="79" y1="8.52" x2="74.72" y2="12.8" width="0.1524" layer="16"/>
 <wire x1="27.68" y1="10.88" x2="27.84" y2="10.72" width="0.1524" layer="1"/>
 <wire x1="27.84" y1="10.72" x2="29.6" y2="10.72" width="0.1524" layer="1"/>
 <wire x1="28.96" y1="22.46" x2="28.96" y2="14.16" width="0.1524" layer="1"/>
@@ -2398,10 +2462,11 @@ Please make sure your boards conform to these design rules.
 <wire x1="36" y1="14.248159375" x2="37.111840625" y2="14.248159375" width="0.1524" layer="1"/>
 <wire x1="37.111840625" y1="14.248159375" x2="37.12" y2="14.24" width="0.1524" layer="1"/>
 <via x="37.12" y="14.24" extent="1-16" drill="0.3048"/>
-<wire x1="84.08" y1="6.32" x2="77.28" y2="13.12" width="0.1524" layer="16"/>
+<wire x1="79.18" y1="8.82" x2="74.88" y2="13.12" width="0.1524" layer="16"/>
 <wire x1="37.12" y1="14.24" x2="38.24" y2="13.12" width="0.1524" layer="16"/>
-<wire x1="77.28" y1="13.12" x2="38.24" y2="13.12" width="0.1524" layer="16"/>
-<wire x1="84.08" y1="6.32" x2="84.08" y2="6.23" width="0.1524" layer="16"/>
+<wire x1="74.88" y1="13.12" x2="38.24" y2="13.12" width="0.1524" layer="16"/>
+<wire x1="84.03" y1="8.82" x2="79.18" y2="8.82" width="0.1524" layer="16"/>
+<wire x1="84.03" y1="8.82" x2="84.08" y2="8.77" width="0.1524" layer="16"/>
 </signal>
 <signal name="MODE_SLOW">
 <contactref element="U3" pad="5"/>

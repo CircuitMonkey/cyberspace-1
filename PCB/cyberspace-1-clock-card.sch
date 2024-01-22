@@ -769,6 +769,60 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="6.35" size="1.778" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="21" font="vector" rot="SR270" align="center">&gt;VALUE</text>
 </package>
+<package name="TSOP-5" urn="urn:adsk.eagle:footprint:8032544/2" locally_modified="yes" library_version="33" library_locally_modified="yes">
+<description>SC-74A (SOT753)  3mm x 1.6mm</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1.4" y1="0.7" x2="1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.446" x2="1.4" y2="-0.573" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.573" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.7" x2="-1.4" y2="-0.573" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.573" x2="-1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.446" x2="-1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.446" x2="-1.4" y2="-0.446" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.573" x2="-1.4" y2="-0.573" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="2" x="0" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R90"/>
+<smd name="4" x="0.95" y="1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R270"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.8" dy="0.4" layer="1" roundness="40" rot="R270"/>
+<rectangle x1="-0.2" y1="-1.5" x2="0.2" y2="-0.9" layer="51"/>
+<rectangle x1="0.75" y1="-1.5" x2="1.15" y2="-0.9" layer="51"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.75" y2="-0.9" layer="51"/>
+<rectangle x1="0.75" y1="0.9" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.9" x2="-0.75" y2="1.5" layer="51" rot="R180"/>
+<text x="0" y="0" size="0.254" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="-2" y="0" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<circle x="-1.651" y="-1.5" radius="0.127" width="0.254" layer="21"/>
+</package>
+<package name="SOT353-1" library_version="33" library_locally_modified="yes">
+<description>SOT353-1  (SC-88A) (TSSOP5)  2.1mm x 1.25mm</description>
+<wire x1="-1.05" y1="0.625" x2="1.05" y2="0.625" width="0.01" layer="51"/>
+<wire x1="1.05" y1="0.625" x2="1.05" y2="-0.625" width="0.01" layer="51"/>
+<wire x1="1.05" y1="-0.625" x2="-1.05" y2="-0.625" width="0.01" layer="51"/>
+<wire x1="-1.05" y1="-0.625" x2="-1.05" y2="0.625" width="0.01" layer="51"/>
+<wire x1="1.05" y1="0.6" x2="1.05" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-1.05" y1="0.6" x2="-1.05" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.2" layer="21"/>
+<rectangle x1="-0.13" y1="-1.12" x2="0.13" y2="-0.7" layer="51"/>
+<rectangle x1="-0.78" y1="-1.12" x2="-0.52" y2="-0.7" layer="51"/>
+<rectangle x1="0.52" y1="-1.12" x2="0.78" y2="-0.7" layer="51"/>
+<rectangle x1="0.52" y1="0.7" x2="0.78" y2="1.12" layer="51"/>
+<rectangle x1="-0.78" y1="0.7" x2="-0.52" y2="1.12" layer="51"/>
+<circle x="-0.6" y="-0.4" radius="0.1" width="0.01" layer="51"/>
+<circle x="-1.15" y="-1.1" radius="0.1" width="0.2" layer="21"/>
+<smd name="2" x="0" y="-0.95" dx="0.6" dy="0.3" layer="1" roundness="50" rot="R90"/>
+<smd name="1" x="-0.65" y="-0.95" dx="0.6" dy="0.3" layer="1" roundness="50" rot="R90"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.6" dy="0.3" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="0.65" y="0.95" dx="0.6" dy="0.3" layer="1" roundness="50" rot="R270"/>
+<smd name="5" x="-0.65" y="0.95" dx="0.6" dy="0.3" layer="1" roundness="50" rot="R270"/>
+<text x="-1.3" y="0" size="0.7" layer="25" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0.2" size="0.2" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP14" urn="urn:adsk.eagle:package:8032598/5" type="model" library_version="32" library_locally_modified="yes">
@@ -803,6 +857,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>SO-8 Package</description>
 <packageinstances>
 <packageinstance name="DIP-08"/>
+</packageinstances>
+</package3d>
+<package3d name="TSOP-5" urn="urn:adsk.eagle:package:8032592/3" type="model" library_version="33" library_locally_modified="yes">
+<description>TSOP-5</description>
+<packageinstances>
+<packageinstance name="TSOP-5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1040,6 +1100,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0" y1="3.81" x2="-3.048" y2="3.81" width="0.6096" layer="94"/>
 <text x="1.27" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.8128" layer="96" align="center-left">&gt;VALUE</text>
+</symbol>
+<symbol name="BUFFER_INV" urn="urn:adsk.eagle:symbol:14180697/1" library_version="33" library_locally_modified="yes">
+<description>Buffer, Inverting</description>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="5.08" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="Y" x="5.08" y="0" visible="pad" length="point" rot="R180"/>
+<text x="-0.254" y="2.032" size="1.778" layer="95" ratio="15">&gt;NAME</text>
+<text x="-1.016" y="-2.54" size="0.8128" layer="95" font="vector" align="center-left">&gt;VALUE</text>
+<circle x="3.6068" y="0" radius="1.016" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1279,8 +1351,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="74*32?" urn="urn:adsk.eagle:component:14180703/5" prefix="U" uservalue="yes" library_version="33" library_locally_modified="yes">
-<description>Quad XOR</description>
+<deviceset name="74*32?" urn="urn:adsk.eagle:component:14180703/5" locally_modified="yes" prefix="U" uservalue="yes" library_version="33" library_locally_modified="yes">
+<description>Quad OR</description>
 <gates>
 <gate name=".1" symbol="OR" x="0" y="38.1" swaplevel="1"/>
 <gate name=".2" symbol="OR" x="0" y="25.4" swaplevel="1"/>
@@ -1323,6 +1395,52 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="COST100" value="0.20" constant="no"/>
 <attribute name="MPN" value="74LS32D" constant="no"/>
 <attribute name="VALUE" value="74LS32" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G?04" prefix="U" uservalue="yes" library_version="33" library_locally_modified="yes">
+<description>Single Gate Inverter</description>
+<gates>
+<gate name=".1" symbol="BUFFER_INV" x="0" y="0"/>
+<gate name=".P" symbol="PWR_GATE_SINGLE" x="0" y="-12.7"/>
+</gates>
+<devices>
+<device name="-TSOP5" package="TSOP-5">
+<connects>
+<connect gate=".1" pin="A" pad="2"/>
+<connect gate=".1" pin="Y" pad="4"/>
+<connect gate=".P" pin="GND" pad="3"/>
+<connect gate=".P" pin="VCC" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8032592/3"/>
+</package3dinstances>
+<technologies>
+<technology name="HCT">
+<attribute name="COST01" value="0.35" constant="no"/>
+<attribute name="COST10" value="0.24" constant="no"/>
+<attribute name="COST100" value="0.12" constant="no"/>
+<attribute name="MFR" value="Nexperia" constant="no"/>
+<attribute name="MPN" value="74HCT1G04GV" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-TSSOP5" package="SOT353-1">
+<connects>
+<connect gate=".1" pin="A" pad="2"/>
+<connect gate=".1" pin="Y" pad="4"/>
+<connect gate=".P" pin="GND" pad="3"/>
+<connect gate=".P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="HCT">
+<attribute name="COST01" value="0.35" constant="no"/>
+<attribute name="COST10" value="0.24" constant="no"/>
+<attribute name="COST100" value="0.13" constant="no"/>
+<attribute name="MFR" value="Nexperia" constant="no"/>
+<attribute name="MPN" value="74HCT1G04GW" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2025,7 +2143,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-4.572" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.572" y2="0.254" layer="51"/>
 </package>
-<package name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:footprint:42461646/1" library_version="49">
+<package name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:footprint:42461646/1" locally_modified="yes" library_version="49" library_locally_modified="yes">
 <description>Cermet, Multiturn Trim Pot, Bournes 3006P type.,  THD</description>
 <wire x1="-10.67" y1="2.42" x2="8.38" y2="2.42" width="0.127" layer="51"/>
 <wire x1="8.38" y1="2.42" x2="8.38" y2="1.19" width="0.127" layer="51"/>
@@ -2044,13 +2162,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="8.4" y1="2.5" x2="8.4" y2="-2.4" width="0.2" layer="21"/>
 <wire x1="8.4" y1="-2.4" x2="-10.7" y2="-2.4" width="0.2" layer="21"/>
 <wire x1="-10.7" y1="-2.4" x2="-10.7" y2="2.5" width="0.2" layer="21"/>
-<pad name="1" x="-7.62" y="-1.27" drill="0.8"/>
-<pad name="2CT" x="0" y="1.27" drill="0.8"/>
-<pad name="3" x="5.08" y="-1.27" drill="0.8"/>
+<pad name="1" x="-7.62" y="1.27" drill="0.8"/>
+<pad name="2CT" x="0" y="-1.27" drill="0.8"/>
+<pad name="3" x="5.08" y="1.27" drill="0.8"/>
 <rectangle x1="-10.67" y1="-2.42" x2="-9.93" y2="2.42" layer="51"/>
 <rectangle x1="7.62" y1="-2.42" x2="8.38" y2="2.42" layer="51"/>
 <text x="6" y="3" size="0.9" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="-1" y="-2" size="0.5" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.5" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -2154,7 +2272,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="R_THD_0.25W"/>
 </packageinstances>
 </package3d>
-<package3d name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:package:42461647/1" type="box" library_version="49">
+<package3d name="CERMET_MULTI_3006P_THD" urn="urn:adsk.eagle:package:42461647/1" type="box" library_version="49" library_locally_modified="yes">
 <description>Cermet, Multiturn Trim Pot, Bournes 3006P type.,  THD</description>
 <packageinstances>
 <packageinstance name="CERMET_MULTI_3006P_THD"/>
@@ -2471,7 +2589,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERMET_MULTI_TURN" urn="urn:adsk.eagle:component:42461648/1" prefix="RP" uservalue="yes" library_version="49">
+<deviceset name="CERMET_MULTI_TURN" urn="urn:adsk.eagle:component:42461648/1" prefix="RP" uservalue="yes" library_version="49" library_locally_modified="yes">
 <description>Cermet Style, Multiturn Potentiometer</description>
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="5.08"/>
@@ -3608,10 +3726,14 @@ A</text>
 <part name="SUPPLY45" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY46" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="DINA4_L-SMALLDOC" device="">
-<attribute name="REV" value="A"/>
+<attribute name="REV" value="B"/>
 </part>
 <part name="LOGO1" library="gfx-glyphs" library_urn="urn:adsk.eagle:library:17868973" deviceset="SOZU-BRAND-LOGO" device="-20MM"/>
 <part name="LOGO2" library="gfx-glyphs" library_urn="urn:adsk.eagle:library:17868973" deviceset="CHRONOS-LOGO" device="-20MM"/>
+<part name="U7" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="74*1G?04" device="-TSOP5" package3d_urn="urn:adsk.eagle:package:8032592/3" technology="HCT"/>
+<part name="SUPPLY47" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
+<part name="SUPPLY48" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
+<part name="C11" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3624,6 +3746,19 @@ CLOCK</text>
 CLOCK</text>
 <text x="40.64" y="116.84" size="4.318" layer="97" ratio="15" distance="20" align="center">STEP CLOCK</text>
 <text x="55.88" y="157.48" size="4.318" layer="97" ratio="15" distance="20" align="center">CLOCK MODE SELECT</text>
+<text x="154.94" y="88.9" size="3.81" layer="97">Add Test Points!</text>
+<text x="43.18" y="38.1" size="1.778" layer="97" align="bottom-center">Don't use Schmidt trigger
+for first buffer!</text>
+<wire x1="48.26" y1="27.94" x2="38.1" y2="38.1" width="0.3048" layer="97"/>
+<wire x1="38.1" y1="27.94" x2="48.26" y2="38.1" width="0.3048" layer="97"/>
+<text x="66.04" y="30.48" size="1.4224" layer="97" align="top-left">Clock Rework:
+ - Lift U5 pins 10 and 11.
+ - Connect U5 Pin 11 to GND.
+ - Add U7 near X1.
+ - Connect U7.3 to GND
+ - COnnect U7.5 to Vcc
+ - Connect U7.2 to R12/X1 junction.
+ - Connect U7.4 to R12/R11 junction.</text>
 </plain>
 <instances>
 <instance part="PCB" gate="G$1" x="233.68" y="114.3" smashed="yes">
@@ -4027,6 +4162,24 @@ CLOCK</text>
 <attribute name="NAME" x="167.64" y="15.748" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="167.64" y="13.208" size="1.016" layer="96" font="vector" align="center"/>
 </instance>
+<instance part="U7" gate=".1" x="7.62" y="33.02" smashed="yes">
+<attribute name="NAME" x="7.366" y="35.052" size="1.778" layer="95" ratio="15"/>
+<attribute name="VALUE" x="6.604" y="30.48" size="0.8128" layer="95" font="vector" align="center-left"/>
+</instance>
+<instance part="U7" gate=".P" x="7.62" y="17.78" smashed="yes">
+<attribute name="NAME" x="8.382" y="21.082" size="1.778" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="10.668" y="17.78" size="0.8128" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY47" gate="GND" x="7.62" y="12.7" smashed="yes">
+<attribute name="VALUE" x="7.62" y="10.033" size="0.6096" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="SUPPLY48" gate="G$1" x="7.62" y="22.86" smashed="yes">
+<attribute name="VALUE" x="7.62" y="26.797" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
+</instance>
+<instance part="C11" gate="G$1" x="15.24" y="17.78" smashed="yes">
+<attribute name="NAME" x="17.78" y="17.78" size="1.6764" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="17.78" y="16.764" size="0.6096" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4157,6 +4310,14 @@ CLOCK</text>
 <pinref part="U6" gate=".P" pin="GND"/>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U7" gate=".P" pin="GND"/>
+<pinref part="SUPPLY47" gate="GND" pin="GND"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<junction x="7.62" y="12.7"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -4257,6 +4418,14 @@ CLOCK</text>
 <pinref part="CLK" gate="G$1" pin="A"/>
 <pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="U7" gate=".P" pin="VCC"/>
+<pinref part="SUPPLY48" gate="G$1" pin="VCC"/>
+<wire x1="7.62" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<junction x="7.62" y="22.86"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="XTAL_IN" class="0">
 <segment>
@@ -4270,10 +4439,15 @@ CLOCK</text>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="17.78" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <label x="30.48" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="25.4" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <junction x="33.02" y="25.4"/>
 <pinref part="U5" gate=".5" pin="A"/>
+<wire x1="33.02" y1="27.94" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<junction x="33.02" y="27.94"/>
+<pinref part="U7" gate=".1" pin="A"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL_OUT" class="0">
@@ -4286,10 +4460,17 @@ CLOCK</text>
 <label x="55.88" y="17.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate=".5" pin="Y"/>
 <pinref part="U5" gate=".4" pin="A"/>
-<wire x1="48.26" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="25.4"/>
 <junction x="55.88" y="33.02"/>
+<wire x1="53.34" y1="33.02" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<junction x="53.34" y="33.02"/>
+<wire x1="53.34" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="38.1" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U7" gate=".1" pin="Y"/>
+<wire x1="15.24" y1="33.02" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
