@@ -1707,7 +1707,7 @@ Please make sure your boards conform to these design rules.
 <via x="20" y="42.3" extent="1-16" drill="0.3048"/>
 <via x="61" y="42.3" extent="1-16" drill="0.3048"/>
 <via x="72.2" y="41.9" extent="1-16" drill="0.3048"/>
-<via x="64.8" y="42.9" extent="1-16" drill="0.3048"/>
+<via x="66.6" y="42" extent="1-16" drill="0.3048"/>
 <via x="67.2" y="36.5" extent="1-16" drill="0.3048"/>
 <via x="89.2" y="35.1" extent="1-16" drill="0.3048"/>
 <via x="92.4" y="20.1" extent="1-16" drill="0.3048"/>
