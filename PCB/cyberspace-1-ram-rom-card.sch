@@ -3871,7 +3871,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <sheet>
 <plain>
 <text x="208.28" y="104.14" size="1.778" layer="97" rot="R90" align="center">NOT USED</text>
-<text x="251.46" y="121.92" size="1.016" layer="97" rot="R90" align="center">NOT USED</text>
+<text x="251.46" y="127" size="1.016" layer="97" rot="R90" align="center">NOT USED</text>
 <text x="255.524" y="95.25" size="1.778" layer="97" rot="R180" align="center">NOT USED</text>
 <text x="62.23" y="127" size="1.397" layer="97" distance="80" align="center">X
 X
@@ -3887,6 +3887,9 @@ Header.</text>
 <text x="187.96" y="38.1" size="2.54" layer="97" rot="R180" align="top-center">Backlight</text>
 <text x="147.32" y="22.86" size="2.032" layer="97" ratio="12" align="bottom-center">Bank 1 Select
 (High/Low)</text>
+<text x="251.46" y="121.92" size="1.016" layer="97" align="center-left">USED BY CPU !INT</text>
+<text x="251.46" y="119.38" size="1.016" layer="97" align="center-left">USED BY CPU !INT</text>
+<text x="251.46" y="116.84" size="1.016" layer="97" align="center-left">USED BY CPU !INT</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -3911,7 +3914,7 @@ Header.</text>
 <attribute name="VALUE" x="48.26" y="114.173" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="248.92" y="111.76" smashed="yes">
-<attribute name="VALUE" x="251.46" y="114.935" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
+<attribute name="VALUE" x="251.968" y="114.173" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="48.26" y="160.02" smashed="yes">
 <attribute name="VALUE" x="48.26" y="163.957" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
